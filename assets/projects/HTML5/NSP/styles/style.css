@@ -1,0 +1,236 @@
+/* ---------- RESET ----------------- */
+@charset "UTF-8";
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* ----------- FONT ---------------- */
+@font-face {
+    font-family: 'NespressoLucas-Bold';
+    src: url('../fonts/NespressoLucas-Bold.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+/* ---------- GENERIC -------------- */
+* { position: absolute; background-repeat:no-repeat; -webkit-backface-visibility: hidden; box-sizing: border-box; }
+br { position: relative !important; }
+span { position: relative !important}
+html, body { margin: 0px; overflow: hidden; background-color: white; width: 100%; height: 100%; font-size: 2vmax;}
+img { width: 100%; height: 100%; }
+
+.hidden { opacity: 0; }
+.clicker { cursor: pointer; }
+.dark { background-color: #000; }
+
+
+.fullSize {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#mainContainer {
+	position: relative;
+    overflow: hidden;
+    height: 100%;
+	width: 100%;
+    cursor:pointer;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.hide{
+	display: none;
+}
+
+.hidden { opacity: 0; }
+
+/* Background Images */
+.bgHolder {
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	overflow: hidden;
+}
+
+
+
+#bg1{
+	width: auto;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+}
+#bg2{
+	width: auto;
+    height: 110%;
+    top: 0%;
+    left: -101.7%;
+}
+
+
+/* Logos */
+.logo1 {
+	width: 10%;
+    height: auto;
+    left: 44.9%;
+    top: 6%;
+}
+
+.logo2 {
+	width: 20.8%;
+    height: auto;
+    left: 39%;
+    bottom: 6%;
+}
+
+#endLogo{
+	opacity: 0;
+}
+
+.White #blackLogo1, .White #blackLogo2{
+	display: none;
+}
+
+.Black #whiteLogo1, .Black #whiteLogo2{
+	display: none;
+}
+
+.Black #overlay{
+	display: none;
+}
+/* Texts */
+
+.holder{
+	width: 100%;
+	top:33%
+}
+
+#copy4Holder{
+	left:-0.5%;
+	top:35%;
+	margin-top: -1px;
+}
+#copy5Holder{
+	position: absolute;
+	width:100%;
+	height: 100%;
+	top:0px;
+	left:0px;
+}
+#copy6Holder{
+	top:35%;
+	margin-top: -1px;
+}
+
+#copy1{
+	width: 80%;
+	margin: 0 auto;
+}
+
+#copy2{
+	width: 70%;
+	margin: 0 auto;
+}
+#copy4{
+	width: 75%;
+    margin: 0 auto;
+    font-size: 2.4em;
+    line-height: 1.2em;
+    letter-spacing: 0.13em;
+}
+#copy6{
+	width: 80%;
+    margin: 0 auto;
+    font-size: 2.3em;
+    line-height:1.2em;
+}
+
+
+.copy {
+	position: relative;
+	font-family: "NespressoLucas-Bold";
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2.5em;
+	line-height: 1.7em;
+	letter-spacing: 0.1em;
+	color: white;
+}
+
+.White .copy{
+	color: white;
+}
+
+.Black .copy{
+	color: white;
+}
+
+#ctaHolder{
+	top: 75.6%;
+}
+
+#cta{
+	position: relative;
+    border: 2px solid white;
+    display: table;
+	margin: 0 auto;
+	font-size: 2.3em;
+	padding: 0px 13px;
+	line-height: 1.5em;
+}
+
+.Black #cta{
+	border: 2px solid white;
+}
+
+#overlay{
+	width: 100%;
+	height: 100%;
+	background: rgb(0,0,0);
+background: linear-gradient(173deg, rgba(0,0,0,0.4164040616246498) 0%, rgba(0,0,0,0.1110819327731093) 100%);
+}
+
+
+
+
+/* Custom CSS for 160x600*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+

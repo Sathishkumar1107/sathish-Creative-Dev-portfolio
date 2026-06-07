@@ -1,0 +1,330 @@
+
+/*********** RESPONSIVE MEDIA QUERIES **********/
+
+/* 300x600 & 160x600 & 120x600 & 320x480*/
+@media screen and (min-height:400px) and (max-width:330px)
+{
+	html, body { font-size: 2vw;}
+    /* default master size */
+	#bg1{
+		height: 100%;
+		top: 0%;
+		left: 0%;
+	}
+	#bg2{
+		height: 110%;
+		top: -5.8%;
+		left: -33%;
+	}
+	
+	.holder{
+		top: 22%;
+	}
+	#copy6Holder{
+		top: 22.4%;
+		
+	}
+	#copy4Holder{
+		top: 22%;
+		
+	}
+	
+	
+	.copy{
+		font-size: 4.3em;
+    	line-height: 1.1em;
+	}
+	
+	#copy4{
+		font-size: 4.1em;
+    	width:85%;
+	}
+	#copy6{
+		font-size: 3.7em;
+    	line-height: 1.1em;
+		letter-spacing: 0.2em;
+	}
+	
+	#copy1{
+		width: 80%;
+	}
+	
+	.logo1{
+		width: 18.4%;
+		height: auto;
+		left: 41%;
+		top: 4.5%;
+	}
+	
+	.logo2{
+		width: 38.7%;
+		height: auto;
+		left: 30.1%;
+		bottom: 4.3%;
+		margin-left:-1px;
+	}
+
+	#copy5{
+	    width: 515px;
+    height: auto;
+    left: -108px;
+    top: 67px;
+	}
+	
+	#ctaHolder{
+		top: 75.6%;
+	}
+	
+	#cta{
+		font-size: 3.5em;
+    	padding: 0px 22px;
+	}
+	
+	@media screen and (max-height:500px)
+	{
+		#bg1{
+			top: 0.2%;
+		}
+	}
+	@media screen and (max-height:480px)
+	{
+		#bg1{
+			top: -2.8%;
+    		left: -30%;
+		}
+		.holder {
+			top: 30%;
+		}	
+		.logo2 {
+			width: 38.7%;
+			height: auto;
+			left: 30.8%;
+			bottom: 5.3%;
+		}
+		#ctaHolder {
+			top: 30.8%;
+		}
+	}
+	@media screen and (max-width:170px)
+	{
+		#bg1{
+			
+			left: -115%;
+		}
+		
+		.copy{
+			font-size: 6.3em;
+			line-height: 1.5em;
+		}
+		
+		#ctaHolder{
+			width: 80%;
+			left: 10%;
+		}
+		
+		#cta{
+			font-size: 5em;
+			padding: 0px 10px;
+		}
+		.logo1{
+			width: 30%;
+			height: auto;
+			left: 35%;
+			top: 9.2%;
+		}
+
+		.logo2{
+			width: 68%;
+			height: auto;
+			left: 15.5%;
+			bottom: 4.5%;
+		}
+	}
+	@media screen and (max-width:130px)
+	{
+		#bg1{
+			
+			left: -155%;
+		}
+		.copy{
+			font-size: 6.3em;
+			line-height: 1.5em;
+		}
+		
+		#ctaHolder{
+			width: 80%;
+			left: 10%;
+		}
+		
+		#cta{
+			font-size: 5em;
+			padding: 0px 10px;
+		}
+		
+		.logo1{
+			width: 30%;
+			height: auto;
+			left: 35%;
+			top: 9.2%;
+		}
+
+		.logo2{
+			width: 68%;
+			height: auto;
+			left: 15.5%;
+			bottom: 4.5%;
+		}
+	}
+
+}
+
+/* 970x250 */
+@media screen and (max-height:320px) and (min-width:500px)
+{
+	html, body { font-size: 2vh;}
+	#bg1{
+			height: 530%;
+			top: -248%;
+			left: -52%;
+		}
+	#bg2{
+			height: 510%;
+			top: -154%;
+			left: -66.8%;
+		}
+	
+	.logo1{
+		width: auto;
+		height: 18%;
+		left: 47.5%;
+		top: 41%;
+		opacity: 0;
+	}
+	
+	.logo2{
+		width: auto;
+		height: 10.4%;
+		left: 42.6%;
+		top: 44.3%;
+		opacity: 0;
+	}
+
+	#landscapeLogo1{
+		width: auto;
+		height: 58px;
+		left: 456px;
+		top: 100px;
+		opacity: 1;
+	}
+
+	#landscapeLogo2{
+		width: auto;
+		height: 35px;
+		left: 388px;
+		top: 112px;
+	}
+	
+	.copy{
+		font-size: 5.4em;
+		line-height: 1.25em;
+		letter-spacing: 0.17em;
+	}
+	
+	#copy6{
+		font-size: 4.1em;
+		letter-spacing: 0.15em;
+	}
+	#copy4{
+		font-size: 5.4em;
+		line-height: 1.25em;
+		letter-spacing: 0.17em;
+	}
+	#copy5{
+		width: 467px;
+		height: auto;
+		left: 508px;
+		top: -86px;
+	}
+	
+	
+	.holder {
+		width: 36%;
+		top: 37%;
+		right: 5.3%;
+	}
+
+	#copy4Holder {
+		width: 47%;
+		top: 30%;
+		left: 53.3%;
+	}
+	
+	#copy6Holder{
+		right:5.3%;
+		top:37%;
+	}
+	
+	#ctaHolder {
+		top: 47%;
+		right: 5.5%;
+	}
+	
+	#cta{
+		font-size: 4em;
+    	padding: 1px 22px;
+		letter-spacing: 0.13em;
+	}
+	/* 728x90*/
+	@media screen and (max-height:200px){
+		#bg1{
+			height: 696%;
+			top: -373%;
+			left: -1.5%;
+		}
+		
+		.logo1{
+			width: auto;
+			height: 50%;
+			left: 47%;
+			top: 27%;
+		}
+		
+		.holder{
+			top:26%;
+		}
+		
+		.copy{
+			font-size: 8.2em;
+			line-height: 1.43em;
+			letter-spacing: 0.15em;
+		}
+		
+		#copy4{
+			font-size: 8.2em;
+			line-height: 1.43em;
+			letter-spacing: 0.15em;
+		}
+		
+		#cta{
+			font-size: 8.6em;
+			letter-spacing: 0.12em;
+			padding: 2px 20px;
+    		line-height: 1em;
+		}
+		
+		#ctaHolder{
+			top: 35%;
+    		right: 0.6%;
+		}
+		
+		.logo2{
+			width: auto;
+			height: 28.7%;
+			left: 40.1%;
+			top: 35.8%;
+		}
+		
+	}
+	
+}
+

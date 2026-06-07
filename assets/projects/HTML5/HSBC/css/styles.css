@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#ad_container {
+    position: relative;
+    width: 300px;
+    height: 600px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #ffffff;
+    -webkit-backface-visibility: hidden;
+    box-sizing: border-box;
+    opacity: 0;
+    margin: 0 auto;
+}
+.hide{
+    opacity: 0;
+}
+.img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: auto;
+
+}
+#border{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 600px;
+    border:solid 1px #000;
+    box-sizing: border-box;
+    opacity: 0.5;
+}
+
+#hexHolder{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 600px;
+}
+#hex-logo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: auto;
+}
+#hexbg-lt{
+    position: absolute;
+    left: 94.8px;
+    top: 246.5px;
+    width: 0;
+    height: 110px;
+    background-color: #db0010;
+}
+#hexbg-rt{
+    position: absolute;
+    right: 94px;
+    top: 247.1px;
+    width: 0;
+    height: 110px;
+    background-color: #db0010;
+}
+#hexbg-ctr{
+    position: absolute;
+    left: 96px;
+    top: 248px;
+    width: 108px;
+    height: 107px;
+    background-color: #db0010;
+    opacity: 0;
+}
+#hex-lt{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: auto;
+    transform: scaleX(0);
+    transform-origin: 93px 0px;
+}
+#hex-rt{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 300px;
+    height: auto;
+    transform: scaleX(0);
+    transform-origin: 208px 0px;
+}
+
+
+
+
+#termsHolder{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 600px;
+}
+
+#terms{
+    position: absolute;
+    top: 128px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+}
+
+#btn{
+    position: absolute;
+    width: 53px;
+    height: 22px;
+    right: 24px;
+    bottom: 0px;
+    z-index: 2;
+    display: none;
+}
+
+#btn2 {
+   position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    display: none;
+}
+#termsUrl {
+    position: absolute;
+    left: 8px;
+    bottom: 2px;
+    width: 115px;
+    height: 14px;
+    z-index: 3;
+    display: none;
+}
+
+#clickTag{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 600px;
+    z-index:1;
+}

@@ -1,0 +1,216 @@
+@charset "UTF-8";
+/* CSS Document Common Elements */
+
+body {
+  position: absolute;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  background: #FFFFFF;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* ----------- FONT ---------------- */
+
+
+@font-face {
+  font-family: "AzoSansBlackItalic";
+  src: url("../fonts/AzoSans-BlackItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AzoSansBoldItalic";
+  src: url("../fonts/AzoSans-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AzoSanslightItalic";
+  src: url("../fonts/AzoSans-LightItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  user-select: none;
+  background-repeat: no-repeat;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  box-sizing: border-box;
+}
+
+.fullSize {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#mainContainer {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #000;
+}
+
+/*Logos */
+#logo {
+  position: absolute;
+  width: 170px;
+  height: auto;
+  left: 66px;
+  top: 286px;
+}
+
+
+#bgImage {
+  position: absolute;
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+  left: -150px;
+  top: 0px;
+}
+
+#product1 {
+  position: absolute;
+  width: 238px;
+  height: auto;
+  top: 152px;
+  left: 59px;
+}
+
+#product2 {
+  position: absolute;
+  width: 154px;
+  height: auto;
+  top: 194px;
+  left: 33px;
+}
+
+
+/* Texts */
+
+
+#copyContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* Texts */
+
+.copyHolder {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+#copyHolder1 {
+  height: 190px;
+  top: 0px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.copy {
+  position: relative;
+  font-family: "AzoSansBlackItalic";
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1.5px;
+  font-feature-settings: "kern";
+  text-transform: uppercase;
+}
+
+#copyHolder2 {
+  top: 434px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#frame1Text1 {
+  font-size: 34px;
+  line-height: 0.9;
+}
+
+#frame1Text2 {
+  font-size: 19px;
+  line-height: 1;
+  top: -12px;
+  height: 38px;
+  display: none;
+  align-items: center;
+}
+
+#legalCopyHolder {
+  top: 539px;
+  padding: 12px 5px;
+}
+
+#legalText {
+  font-family: "AzoSanslightItalic";
+  font-size: 6px;
+  letter-spacing: 0.4px;
+  line-height: 1.25;
+  text-transform: none;
+}
+
+
+/* CTA */
+#cta {
+  font-family: "AzoSansBoldItalic";
+  display: inline-block;
+  line-height: 1.5;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 25px;
+  font-size: 20px;
+  padding: 7px 21px;
+  box-sizing: border-box;
+  background-color: #274a93;
+  background-image: linear-gradient(#a6bceb, #617db6, #cdd9f1);
+  letter-spacing: 0.6px;
+  height: 40px;
+  transition: .3s;
+}
+#mainContainer:hover #cta {
+  transform: scale(.95);
+
+}
+
+/* BORDER */
+#border {
+  border: 1px solid #7a7676;
+}
+
+
+/* DYNAMIC CLASS */
+.hidden {
+  opacity: 0;
+}
+body {
+  width: 300px;
+  height: 600px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html><html><head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Responsive Banner</title>	
+		<meta name="ad.size" content="width=300,height=600">
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
+		<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+		<script src="https://s0.2mdn.net/ads/studio/cached_libs/gsap_3.5.1_min.js"></script>
+	<script type="text/javascript">var clickTag = "http://www.google.com";</script>
+</head><body><hoxton style="display: none" data="%257B%2522name%2522%3A%2522Nespresso%2520%257C%2520MWC%2520%257C%25202022%2520%257C%2520PNGAS%2522%2C%2522adType%2522%3A%2522HTML5%2522%2C%2522platform%2522%3A%2522generic%2522%2C%2522backupQuality%2522%3A%252290%2522%2C%2522adSize%2522%3A%257B%2522width%2522%3A%2522300%2522%2C%2522height%2522%3A%2522600%2522%257D%2C%2522reportingLabel%2522%3A%2522MWC_PNGAS_HTML5_%257BCreative%257D_%257Bwidth%257Dx%257Bheight%257D_%257Blanguage%257D%2522%2C%2522bg1End%2522%3A%257B%2522type%2522%3A%2522number%2522%2C%2522value%2522%3A%252232%2C%2520-42%2C%25201.20%2522%2C%2522editableGroups%2522%3A%255B%2522Creative%2522%255D%257D%2C%2522bg2End%2522%3A%257B%2522type%2522%3A%2522number%2522%2C%2522value%2522%3A%252256%2C%252010%2C%25201.34%2522%2C%2522editableGroups%2522%3A%255B%2522Creative%2522%255D%257D%2C%2522bg1%2522%3A%257B%2522type%2522%3A%2522image%2522%2C%2522value%2522%3A%2522images/bg1.jpg%2522%2C%2522editableGroups%2522%3A%255B%2522Creative%2522%255D%257D%2C%2522bg2%2522%3A%257B%2522type%2522%3A%2522image%2522%2C%2522value%2522%3A%2522images/bg2.jpg%2522%2C%2522editableGroups%2522%3A%255B%2522Creative%2522%255D%257D%2C%2522logo1%2522%3A%257B%2522type%2522%3A%2522image%2522%2C%2522value%2522%3A%2522images/MonogramLogo.png%2522%2C%2522editableGroups%2522%3A%255B%2522Creative%2522%255D%257D%2C%2522logo2%2522%3A%257B%2522type%2522%3A%2522image%2522%2C%2522value%2522%3A%2522images/logo.png%2522%2C%2522editableGroups%2522%3A%255B%2522Creative%2522%255D%257D%2C%2522landscapeLogo1%2522%3A%257B%2522type%2522%3A%2522image%2522%2C%2522value%2522%3A%2522images/noimage.png%2522%2C%2522editableGroups%2522%3A%255B%2522Creative%2522%255D%257D%2C%2522landscapeLogo2%2522%3A%257B%2522type%2522%3A%2522image%2522%2C%2522value%2522%3A%2522images/noimage.png%2522%2C%2522editableGroups%2522%3A%255B%2522Creative%2522%255D%257D%2C%2522copy1%2522%3A%257B%2522type%2522%3A%2522text%2522%2C%2522value%2522%3A%2522WITH%253Cbr%253EAGED%2520COFFEE%2522%2C%2522editableGroups%2522%3A%255B%2522Creative%2522%255D%257D%2C%2522copy2%2522%3A%257B%2522type%2522%3A%2522text%2522%2C%2522value%2522%3A%2522TIME%2520PASSED%253Cbr%253EIS%2520CHARACTER%253Cbr%253EGAINED%2522%2C%2522editableGroups%2522%3A%255B%2522Creative%2522%255D%257D%2C%2522copy5%2522%3A%257B%2522type%2522%3A%2522image%2522%2C%2522value%2522%3A%2522images/copy5.png%2522%2C%2522editableGroups%2522%3A%255B%2522Creative%2522%255D%257D%2C%2522copy6%2522%3A%257B%2522type%2522%3A%2522text%2522%2C%2522value%2522%3A%2522AGED%2520SUMATRA%253Cbr%253ELIMITE%2520EDITION%2522%2C%2522editableGroups%2522%3A%255B%2522Creative%2522%255D%257D%2C%2522cta%2522%3A%257B%2522type%2522%3A%2522text%2522%2C%2522value%2522%3A%2522DISCOVER%2520CARE%2522%2C%2522editableGroups%2522%3A%255B%2522Creative%2522%255D%257D%2C%2522cssOverride%2522%3A%257B%2522type%2522%3A%2522css%2522%2C%2522value%2522%3A%2522%2522%2C%2522editableGroups%2522%3A%255B%2522Creative%2522%255D%257D%2C%2522hoxtonSettings%2522%3A%257B%257D%2C%2522metadata%2522%3A%257B%2522language%2522%3A%2522en%2522%257D%257D"></hoxton>
+	
+		
+		<div id="mainContainer" class="hidden clicker dark Black">
+			<!-- DAZN LOGOS in Different Frames -->
+			
+			<!-- IMAGES -->
+			<div class="bgHolder">
+				<img id="bg1" alt style="visibility: visible;">
+				<div id="overlay"></div>
+			</div>			
+			<!-- COPY HOLDERS -->
+			<div id="copy1Holder" class="holder">	
+				<div id="copy1" class="copy" style="visibility: visible;"></div>
+			</div>
+			<div id="copy2Holder" class="holder">
+				<div id="copy2" class="copy hidden" style="visibility: visible;"></div>
+			</div>
+			<div id="copy3Holder" class="holder">
+				<div id="copy3" class="copy hidden"></div>
+			</div>
+			<div id="copy4Holder" class="holder">
+				<div id="copy4" class="copy hidden"></div>
+			</div>
+			
+			<div class="bgHolder">
+				<img id="bg2" alt class="hidden" style="visibility: visible;">
+			</div>
+			
+			<div id="copy6Holder" class="holder">
+				<div id="copy6" class="copy hidden" style="visibility: visible;"></div>
+			</div>
+			<div id="ctaHolder" class="holder">
+				<div id="cta" class="copy hidden" style="visibility: visible;"></div>
+			</div>
+			<div id="copy5Holder">
+				<img id="copy5" alt class="hidden" style="visibility: visible;">
+			</div>
+			
+			<img id="logo1" class="logo1" alt style="visibility: visible;">
+			<img id="logo2" class="logo2" alt style="visibility: visible;">
+			<img id="landscapeLogo1" class="logo1" alt style="visibility: visible;">
+			<img id="landscapeLogo2" class="logo2" alt style="visibility: visible;">
+			
+			<!-- EXIT -->
+			<div id="banner-exit" class="fullSize"></div>
+			
+		</div>
+		<script src="js/hoxton.js"></script>
+		<script src="js/logic.js"></script>
+	
+
+</body></html>

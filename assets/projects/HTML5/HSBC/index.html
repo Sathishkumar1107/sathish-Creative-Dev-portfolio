@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="ad.size" content="width=300, height=600">
+    <title>300x600</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script>
+        var clickTag = "http://www.google.com";
+        var termsUrl = "https://www.us.hsbc.com/crossborder";
+    </script>
+</head>
+
+<body>
+    <div id="ad_container">
+        <img src="images/bg.jpg" id="bg" class="img">
+        <img src="images/img1.jpg" id="img1" class="img hide">
+        <img src="images/bg1.png" id="bg1" class="img">
+
+        <div id="hexHolder">
+            <div id="hexbg-lt"></div>
+            <div id="hexbg-rt"></div>
+            <div id="hexbg-ctr"></div>
+            <img src="images/hex-logo.svg" id="hex-logo" class="img">
+            <img src="images/hex-lt.svg" id="hex-lt">
+            <img src="images/hex-rt.svg" id="hex-rt">
+        </div>
+        
+        <!-- baner Copy & cta-->
+        <img src="images/copy1.png" id="copy1" class="img hide">
+        <img src="images/copy2.png" id="copy2" class="img hide">
+        <img src="images/copy3.png" id="copy3" class="img hide">
+        <img src="images/cta.png" id="cta" class="img hide">
+
+        <!-- Logo & legal -->
+        <img src="images/legal.png" id="legal" class="img">
+        <img src="images/logo1.png" id="logo1" class="img">
+        <!-- <img src="images/logo2.png" id="logo2" class="img hide"> -->
+
+        <div id="termsHolder" >
+            <img src="images/termsoverlay.png" id="termsoverlay" class="img hide"> 
+            <img src="images/terms.png" id="terms" class="img hide"> 
+            <div id="btn"></div>
+            <div id="btn2"></div>
+            <div id="termsUrl" onclick="window.open(window.termsUrl); void(0);"></div>
+        </div> 
+
+    
+        <div id="clickTag" onclick="window.open(window.clickTag); void(0);"></div>
+        <div id="border"></div>
+    </div>
+    <script src="https://s0.2mdn.net/ads/studio/cached_libs/tweenmax_2.1.2_min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

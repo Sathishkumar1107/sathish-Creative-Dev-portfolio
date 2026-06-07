@@ -1,0 +1,184 @@
+/*-------------------------------------
+    Reset
+---------------------------------------*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*-------------------------------------
+    Layout
+---------------------------------------*/
+
+img{ position: absolute; border: none; width: 300px; height: 600px; }
+
+#mainContainer {
+  position: relative;
+  width: 300px;
+  height: 600px;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+   overflow: hidden;
+  visibility: hidden;
+  /* background-color: #ac4399; */
+}
+
+#border {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000000;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+#exit {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background:gray;
+  opacity:0;
+}
+
+.hidden{
+  opacity: 0;
+}
+
+.fullSize {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+#cta{
+    transform: scale(0.8);
+    transform-origin: 150px 455px;
+}
+
+.abs{
+  position: absolute;
+  top: 0;
+  left:0
+}
+
+#hand{
+    transform: scale(1.2) translate(-17px, 2px);
+}
+#chalk1{
+    transform: scale(1);
+    transform-origin:117px 62px;
+}
+#chalk2{
+    transform: scale(1);
+    transform-origin:200px 75px;
+}
+
+
+#fuelCon{
+    transform-origin:206px 211px;
+    transform: scale(0);
+}
+#bag{
+    /* top: 7px; */
+}
